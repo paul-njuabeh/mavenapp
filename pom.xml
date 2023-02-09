@@ -13,12 +13,6 @@
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.7</maven.compiler.source>
-    <maven.compiler.target>1.7</maven.compiler.target>
-  </properties>
-
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -28,7 +22,7 @@
     </dependency>
   </dependencies>
   
-  <distributionManagement>:
+  <distributionManagement>
             <repository>
               <id>nexus</id>
               <name>Insight Tech Releases Nexus Repository</name>
@@ -52,6 +46,9 @@
                 <sonar.password>admin</sonar.password>
                 <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
                 <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+                <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+                <maven.compiler.source>1.7</maven.compiler.source>
+                <maven.compiler.target>1.7</maven.compiler.target>
         </properties>
   
   <build>
