@@ -26,13 +26,13 @@
             <repository>
               <id>nexus</id>
               <name>Insight Tech Releases Nexus Repository</name>
-              <url>http://184.72.9.7:8081/repository/ranis-release/</url>
+              <url>http://54.193.28.93:8081/repository/ranis-release/</url>
             </repository>
 
             <snapshotRepository>
               <id>nexus</id>
               <name>Insight Tech Snapshot Nexus Repository </name>
-              <url>http://184.72.9.7:8081/repository/ranis-snapshot/</url>
+              <url>http://54.193.28.93:8081/repository/ranis-snapshot/</url>
             </snapshotRepository>
    </distributionManagement>
   
